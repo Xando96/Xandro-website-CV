@@ -1,0 +1,45 @@
+https://www.rapidtables.com/web/css/css-color.html
+
+
+https://www.youtube.com/watch?v=Iv93yjdvkWI
+
+
+<section id="contact" class="site-section section-form text-center">
+            <div class="container">
+
+                <h3>Contact</h3>
+                <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+                <form>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
+                        </div>
+                        <div class="col-sm-6">
+                            <input type="email" name="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="col-sm-12">
+                            <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
+                        </div>
+                    </div>
+                    <button href="dasilvaxandro@gmail.com" class="btn btn-border" type="submit">Hire Me <span class="glyphicon glyphicon-send"></span></button>
+                </form>
+            </div>
+        </section><!-- /.section-form -->
+
+
+
+
+
+
+
+<div class="contact-form">
+	<form id = "contact-form" method = "post" action = "contact-form-handler.php">
+	<input name = "name" type = "text" class= "form-control" placeholder="Your Name" required>
+	<br>
+	<input name ="message" class="form-control" placeholder="Your Email" required><br>
+	
+		<textarea name="message" class="form-control" placeholder="Message" row="4" required></textarea><br>
+		
+		<input type ="submit" class = "form-control submit" value="SEND MESSAGE">
+	</form>
+</div>
